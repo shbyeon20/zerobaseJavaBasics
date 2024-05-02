@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Var1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zerobaseJavaBasics.iml" afterDir="false" />
+    <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="zero base java basic on String method">
+      <change afterPath="$PROJECT_DIR$/src/Var2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +35,14 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Var1.executor": "Run",
+    "Application.Var2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/byeonsanghwa/Desktop/ Programming Material/자바 프로그래밍/김영한의 스프링완전정복/zerobaseJavaBasics/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Var1">
+  <component name="RunManager" selected="Application.Var2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="zerobaseJavaBasics" />
@@ -62,8 +57,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Var2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Var2" />
+      <module name="zerobaseJavaBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Var2" />
         <item itemvalue="Application.Var1" />
         <item itemvalue="Application.Main" />
       </list>
@@ -78,6 +81,19 @@
       <option name="presentableId" value="Default" />
       <updated>1714614752662</updated>
     </task>
+    <task id="LOCAL-00001" summary="zero base java basic on String method">
+      <option name="closed" value="true" />
+      <created>1714626868504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714626868504</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zero base java basic on String method" />
+    <option name="LAST_COMMIT_MESSAGE" value="zero base java basic on String method" />
   </component>
 </project>
