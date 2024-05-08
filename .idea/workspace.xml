@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="zero base java basic on String method">
-      <change afterPath="$PROJECT_DIR$/src/Var2.java" afterDir="false" />
+    <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="zero base java basic on method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shbyeon20"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shbyeon20/zerobaseJavaBasics.git",
+    "accountId": "67283c0d-6dba-4ce4-b3e8-c8e7523a309d"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -89,11 +100,20 @@
       <option name="project" value="LOCAL" />
       <updated>1714626868504</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zero base java basic on method">
+      <option name="closed" value="true" />
+      <created>1714655363788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714655363788</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zero base java basic on String method" />
-    <option name="LAST_COMMIT_MESSAGE" value="zero base java basic on String method" />
+    <MESSAGE value="zero base java basic on method" />
+    <option name="LAST_COMMIT_MESSAGE" value="zero base java basic on method" />
   </component>
 </project>
