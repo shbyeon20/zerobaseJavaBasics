@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="zero base java basic on method">
+      <change afterPath="$PROJECT_DIR$/src/StarTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringReplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WaterContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shbyeon20"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shbyeon20&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shbyeon20/zerobaseJavaBasics.git",
-    "accountId": "67283c0d-6dba-4ce4-b3e8-c8e7523a309d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shbyeon20/zerobaseJavaBasics.git&quot;,
+    &quot;accountId&quot;: &quot;639b8185-7fa2-4e6b-a3ca-2148e70e60e8&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ftK5iEmP0jKtXprzGczEMRasQ3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,17 +48,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.StarTree.executor": "Run",
+    "Application.StringReplace.executor": "Run",
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
+    "Application.WaterContainer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/byeonsanghwa/Desktop/ Programming Material/자바 프로그래밍/김영한의 스프링완전정복/zerobaseJavaBasics/src/Main.java"
+    "last_opened_file_path": "/Users/byeonsanghwa/Desktop/ Programming Material/java practice/zerobaseJavaBasics",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/byeonsanghwa/Desktop/ Programming Material/자바 프로그래밍/김영한의 스프링완전정복/zerobaseJavaBasics/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Var2">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.WaterContainer">
+    <configuration name="StarTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StarTree" />
+      <module name="zerobaseJavaBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringReplace" />
       <module name="zerobaseJavaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,13 +95,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaterContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaterContainer" />
+      <module name="zerobaseJavaBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaterContainer" />
+        <item itemvalue="Application.StarTree" />
+        <item itemvalue="Application.StringReplace" />
         <item itemvalue="Application.Var2" />
         <item itemvalue="Application.Var1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,6 +128,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714614752662</updated>
+      <workItem from="1715145161334" duration="77000" />
+      <workItem from="1715145243279" duration="1009000" />
+      <workItem from="1715146259189" duration="610000" />
+      <workItem from="1715913209633" duration="23517000" />
     </task>
     <task id="LOCAL-00001" summary="zero base java basic on String method">
       <option name="closed" value="true" />
@@ -110,6 +151,9 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zero base java basic on String method" />
