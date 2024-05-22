@@ -1,4 +1,4 @@
-// Java 프로그래밍 - 변수와 자료형_3
+package javaBasic;// Java 프로그래밍 - 변수와 자료형_3
 
 public class Var1 {
     public static void main(String[] args) {

@@ -1,10 +1,8 @@
-// Java 프로그래밍 - 변수와 자료형_4
+package javaBasic;// Java 프로그래밍 - 변수와 자료형_4
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Objects;
 
 public class Var2 {
     public static void main(String[] args) {

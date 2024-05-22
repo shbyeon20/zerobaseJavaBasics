@@ -1,3 +1,5 @@
+package javaBasic;
+
 public class WaterContainer {
 
     public static void main(String[] args) {

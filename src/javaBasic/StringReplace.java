@@ -1,3 +1,5 @@
+package javaBasic;
+
 public class StringReplace {
 
     public static String solution(String str, String to, String from) {

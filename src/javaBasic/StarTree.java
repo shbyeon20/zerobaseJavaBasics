@@ -1,3 +1,5 @@
+package javaBasic;
+
 public class StarTree {
     public static void main(String[] args) {
         threebythree();
