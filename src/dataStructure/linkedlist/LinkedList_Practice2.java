@@ -1,8 +1,7 @@
-package dataStructure;
+package dataStructure.linkedlist;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.stream.IntStream;
 
 public class LinkedList_Practice2 {

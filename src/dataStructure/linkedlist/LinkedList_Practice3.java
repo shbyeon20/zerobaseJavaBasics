@@ -1,6 +1,8 @@
-package dataStructure;
+package dataStructure.linkedlist;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.ArrayList;
+
 
 class  LinkedList_Practice3{
 
