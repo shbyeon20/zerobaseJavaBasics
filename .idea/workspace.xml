@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="zero base java basic on Hashtable">
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/linkedlist/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/linkedlist/LinkedList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/linkedlist/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/tree/Minheap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/modification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/HashPractice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/hash/HashPractice1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/HashPractice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/hash/HashPractice2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/HashtableImple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/hash/HashtableImple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/LinkedList_Practice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/linkedlist/LinkedList_Practice2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/LinkedList_Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/linkedlist/LinkedList_Practice3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/MyHashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/hash/MyHashtable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/MyHashtable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/hash/MyHashtable2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/StackExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/stack/StackExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/StackImple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/stack/StackImple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/StackImple2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/stack/StackImple2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/Stackex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/stack/Stackex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/Minheap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/tree/Minheap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +49,12 @@
   "keyToString": {
     "Application.ArrayEx.executor": "Run",
     "Application.CandyDistribution.executor": "Run",
+    "Application.Class (1).executor": "Run",
+    "Application.Class (2).executor": "Run",
+    "Application.Class (3).executor": "Debug",
+    "Application.Class (4).executor": "Run",
+    "Application.Class (5).executor": "Debug",
+    "Application.Class.executor": "Run",
     "Application.HashPractice1$Practice1.executor": "Run",
     "Application.HashtableImple.executor": "Run",
     "Application.LinkedList_Practice2.executor": "Run",
@@ -82,6 +75,7 @@
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
     "Application.WaterContainer.executor": "Run",
+    "Application.modification.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -95,49 +89,79 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test (3)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+  <component name="RunManager" selected="Application.Class (1)">
+    <configuration name="Class (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
       <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="Class (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
       <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="Class (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
       <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="Class (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
       <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
       <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Class (1)" />
+        <item itemvalue="Application.Class" />
+        <item itemvalue="Application.Class (5)" />
+        <item itemvalue="Application.Class (4)" />
+        <item itemvalue="Application.Class (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +186,7 @@
       <workItem from="1715146259189" duration="610000" />
       <workItem from="1715913209633" duration="26818000" />
       <workItem from="1716075496311" duration="5302000" />
-      <workItem from="1716172937818" duration="116947000" />
+      <workItem from="1716172937818" duration="141107000" />
     </task>
     <task id="LOCAL-00001" summary="zero base java basic on String method">
       <option name="closed" value="true" />
@@ -236,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716512748430</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="zero base java basic on Hashtable">
+      <option name="closed" value="true" />
+      <created>1716700441468</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716700441468</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +299,11 @@
           <url>file://$PROJECT_DIR$/src/Test.java</url>
           <line>44</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructure/practice/Class.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
