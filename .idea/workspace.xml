@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="zero base java basic on Hashtable">
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/modification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/CancleOrderCnt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/SandCastle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/Stringlookup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/X3Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/practice/binaryConv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/Minheap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/tree/Minheap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/practice/Class.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
   "keyToString": {
     "Application.ArrayEx.executor": "Run",
     "Application.CandyDistribution.executor": "Run",
+    "Application.Circle.executor": "Debug",
     "Application.Class (1).executor": "Run",
     "Application.Class (2).executor": "Run",
     "Application.Class (3).executor": "Debug",
@@ -59,13 +65,17 @@
     "Application.HashtableImple.executor": "Run",
     "Application.LinkedList_Practice2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Debug",
     "Application.Phonix.executor": "Run",
     "Application.Que.executor": "Run",
     "Application.Que_Practice1.executor": "Run",
     "Application.Romanchar.executor": "Run",
+    "Application.SandCastle.executor": "Run",
     "Application.StackExample.executor": "Run",
     "Application.StarTree.executor": "Run",
     "Application.StringReplace.executor": "Run",
+    "Application.StringReverse.executor": "Run",
+    "Application.Stringlookup.executor": "Debug",
     "Application.Test (1).executor": "Run",
     "Application.Test (2).executor": "Run",
     "Application.Test (3).executor": "Run",
@@ -75,6 +85,8 @@
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
     "Application.WaterContainer.executor": "Run",
+    "Application.binaryConv.executor": "Run",
+    "Application.main.executor": "Run",
     "Application.modification.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -89,20 +101,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Class (1)">
-    <configuration name="Class (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
-      <module name="zerobaseJavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringReverse">
     <configuration name="Class (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
       <module name="zerobaseJavaBasics" />
@@ -129,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Class (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Main1" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +141,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Class" />
+    <configuration name="SandCastle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.SandCastle" />
+      <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.StringReverse" />
+      <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stringlookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.Stringlookup" />
+      <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="binaryConv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.binaryConv" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Class (1)" />
-        <item itemvalue="Application.Class" />
-        <item itemvalue="Application.Class (5)" />
-        <item itemvalue="Application.Class (4)" />
-        <item itemvalue="Application.Class (3)" />
+        <item itemvalue="Application.StringReverse" />
+        <item itemvalue="Application.SandCastle" />
+        <item itemvalue="Application.binaryConv" />
+        <item itemvalue="Application.Stringlookup" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +224,7 @@
       <workItem from="1715146259189" duration="610000" />
       <workItem from="1715913209633" duration="26818000" />
       <workItem from="1716075496311" duration="5302000" />
-      <workItem from="1716172937818" duration="141107000" />
+      <workItem from="1716172937818" duration="166719000" />
     </task>
     <task id="LOCAL-00001" summary="zero base java basic on String method">
       <option name="closed" value="true" />
@@ -268,7 +306,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716700441468</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="zero base java basic on Hashtable">
+      <option name="closed" value="true" />
+      <created>1716801393620</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716801393620</updated>
+    </task>
+    <task id="LOCAL-00012" summary="zero base java basic on Hashtable">
+      <option name="closed" value="true" />
+      <created>1716801402344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716801402344</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,15 +349,25 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/Test.java</url>
           <line>44</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dataStructure/practice/Class.java</url>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructure/practice/PriorityQue.java</url>
           <line>44</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructure/practice/Circle.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructure/practice/binaryConv.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
