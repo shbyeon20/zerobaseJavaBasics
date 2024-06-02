@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="Coding test practice">
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/tree/Practice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/tree/Practice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/tree/Practice3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment/IDCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment/Timetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment/VotingSimu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/practice/SandCastle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayEx.executor": "Run",
+    "Application.Calendar.executor": "Run",
     "Application.CandyDistribution.executor": "Run",
     "Application.Circle.executor": "Debug",
     "Application.Class (1).executor": "Run",
@@ -59,6 +60,7 @@
     "Application.Class.executor": "Run",
     "Application.HashPractice1$Practice1.executor": "Run",
     "Application.HashtableImple.executor": "Run",
+    "Application.IDCreation.executor": "Run",
     "Application.LinkedList_Practice2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main1.executor": "Debug",
@@ -81,8 +83,10 @@
     "Application.Test (4).executor": "Run",
     "Application.Test (5).executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Timetable.executor": "Run",
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
+    "Application.VotingSimu.executor": "Run",
     "Application.WaterContainer.executor": "Run",
     "Application.binaryConv.executor": "Run",
     "Application.main.executor": "Run",
@@ -100,13 +104,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Practice3">
-    <configuration name="Practice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.tree.Practice1" />
+  <component name="RunManager" selected="Application.VotingSimu">
+    <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.Calendar" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.tree.*" />
+          <option name="PATTERN" value="assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.tree.Practice2" />
+    <configuration name="IDCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.IDCreation" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.tree.*" />
+          <option name="PATTERN" value="assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SandCastle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.SandCastle" />
+    <configuration name="Timetable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.Timetable" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="PATTERN" value="assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.practice.StringReverse" />
+    <configuration name="VotingSimu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.VotingSimu" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.practice.*" />
+          <option name="PATTERN" value="assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VotingSimu" />
+        <item itemvalue="Application.Calendar" />
+        <item itemvalue="Application.IDCreation" />
+        <item itemvalue="Application.Timetable" />
         <item itemvalue="Application.Practice3" />
-        <item itemvalue="Application.Practice2" />
-        <item itemvalue="Application.Practice1" />
-        <item itemvalue="Application.StringReverse" />
-        <item itemvalue="Application.SandCastle" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +204,10 @@
       <workItem from="1716172937818" duration="166719000" />
       <workItem from="1717033759612" duration="64000" />
       <workItem from="1717153838827" duration="4849000" />
-      <workItem from="1717216807225" duration="14553000" />
+      <workItem from="1717216807225" duration="14562000" />
+      <workItem from="1717242557862" duration="175000" />
+      <workItem from="1717305326917" duration="193000" />
+      <workItem from="1717305588114" duration="7180000" />
     </task>
     <task id="LOCAL-00001" summary="zero base java basic on String method">
       <option name="closed" value="true" />
@@ -306,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717033821027</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Coding test practice">
+      <option name="closed" value="true" />
+      <created>1717242546103</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717242546103</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +373,21 @@
           <url>file://$PROJECT_DIR$/src/dataStructure/tree/Practice2.java</url>
           <line>21</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignment/Calendar.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignment/Calendar.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignment/Calendar.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
