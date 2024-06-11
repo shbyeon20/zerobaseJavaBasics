@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="Coding test practice">
-      <change afterPath="$PROJECT_DIR$/src/assignment/Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment/IDCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment/Timetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment/VotingSimu.java" afterDir="false" />
+    <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="binary search practice">
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/AscendingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/Lineup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/Multiple3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/Travel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/CutLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/LegCnt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/MovingVan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/Orangecnt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/tree/Practice3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +55,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayEx.executor": "Run",
+    "Application.AscendingOrder.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.Calendar.executor": "Run",
     "Application.CandyDistribution.executor": "Run",
     "Application.Circle.executor": "Debug",
@@ -58,15 +66,21 @@
     "Application.Class (4).executor": "Run",
     "Application.Class (5).executor": "Debug",
     "Application.Class.executor": "Run",
+    "Application.CutLine.executor": "Run",
     "Application.HashPractice1$Practice1.executor": "Run",
     "Application.HashtableImple.executor": "Run",
     "Application.IDCreation.executor": "Run",
+    "Application.LegCnt.executor": "Run",
+    "Application.Lineup.executor": "Run",
     "Application.LinkedList_Practice2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main1.executor": "Debug",
+    "Application.MovingVan.executor": "Run",
+    "Application.Multiple3.executor": "Run",
+    "Application.Orangecnt.executor": "Run",
     "Application.Phonix.executor": "Run",
     "Application.Practice1.executor": "Run",
-    "Application.Practice2.executor": "Debug",
+    "Application.Practice2.executor": "Run",
     "Application.Practice3.executor": "Run",
     "Application.Que.executor": "Run",
     "Application.Que_Practice1.executor": "Run",
@@ -84,6 +98,7 @@
     "Application.Test (5).executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Timetable.executor": "Run",
+    "Application.Travel.executor": "Run",
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
     "Application.VotingSimu.executor": "Run",
@@ -104,13 +119,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VotingSimu">
-    <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignment.Calendar" />
+  <component name="RunManager" selected="Application.CutLine">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.BinarySearch" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment.*" />
+          <option name="PATTERN" value="dataStructure.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IDCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignment.IDCreation" />
+    <configuration name="CutLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.CutLine" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment.*" />
+          <option name="PATTERN" value="dataStructure.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.tree.Practice3" />
+    <configuration name="LegCnt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.LegCnt" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.tree.*" />
+          <option name="PATTERN" value="dataStructure.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Timetable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignment.Timetable" />
+    <configuration name="MovingVan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.MovingVan" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment.*" />
+          <option name="PATTERN" value="dataStructure.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VotingSimu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignment.VotingSimu" />
+    <configuration name="Orangecnt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.Orangecnt" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment.*" />
+          <option name="PATTERN" value="dataStructure.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VotingSimu" />
-        <item itemvalue="Application.Calendar" />
-        <item itemvalue="Application.IDCreation" />
-        <item itemvalue="Application.Timetable" />
-        <item itemvalue="Application.Practice3" />
+        <item itemvalue="Application.CutLine" />
+        <item itemvalue="Application.Orangecnt" />
+        <item itemvalue="Application.MovingVan" />
+        <item itemvalue="Application.LegCnt" />
+        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +223,14 @@
       <workItem from="1717242557862" duration="175000" />
       <workItem from="1717305326917" duration="193000" />
       <workItem from="1717305588114" duration="7180000" />
+      <workItem from="1717329787618" duration="3645000" />
+      <workItem from="1717409092908" duration="582000" />
+      <workItem from="1717409681451" duration="1000" />
+      <workItem from="1717410223816" duration="12948000" />
+      <workItem from="1717492433721" duration="7548000" />
+      <workItem from="1717550954264" duration="5619000" />
+      <workItem from="1717585800028" duration="4541000" />
+      <workItem from="1717829320961" duration="7376000" />
     </task>
     <task id="LOCAL-00001" summary="zero base java basic on String method">
       <option name="closed" value="true" />
@@ -321,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717242546103</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Coding test practice">
+      <option name="closed" value="true" />
+      <created>1717329796578</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717329796578</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +375,8 @@
     <MESSAGE value="zero base java basic on stack" />
     <MESSAGE value="zero base java basic on Hashtable" />
     <MESSAGE value="Coding test practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coding test practice" />
+    <MESSAGE value="binary search practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -388,6 +420,21 @@
           <url>file://$PROJECT_DIR$/src/assignment/Calendar.java</url>
           <line>110</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructure/tree/Practice3.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructure/binarySearch/LegCnt.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructure/binarySearch/CutLine.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
