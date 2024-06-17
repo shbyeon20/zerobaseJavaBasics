@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fe262d6-d276-4675-8dd6-19f6e2a66a69" name="Changes" comment="binary search practice">
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/AscendingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/Lineup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/Multiple3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/Travel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/CutLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/LegCnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/MovingVan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/binarySearch/Orangecnt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/DFS/BloodFill1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/tree/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/tree/Practice3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +48,9 @@
     "Application.ArrayEx.executor": "Run",
     "Application.AscendingOrder.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.BloodFill1 (1).executor": "Run",
+    "Application.BloodFill1 (2).executor": "Run",
+    "Application.BloodFill1.executor": "Run",
     "Application.Calendar.executor": "Run",
     "Application.CandyDistribution.executor": "Run",
     "Application.Circle.executor": "Debug",
@@ -119,13 +113,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CutLine">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.BinarySearch" />
+  <component name="RunManager" selected="Application.BloodFill1 (2)">
+    <configuration name="BloodFill1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.DFS.BloodFill1" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.binarySearch.*" />
+          <option name="PATTERN" value="dataStructure.DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloodFill1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.DFS.BloodFill1" />
+      <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.DFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloodFill1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.DFS.BloodFill1" />
+      <module name="zerobaseJavaBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,32 +155,6 @@
     </configuration>
     <configuration name="CutLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.CutLine" />
-      <module name="zerobaseJavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.binarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LegCnt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.LegCnt" />
-      <module name="zerobaseJavaBasics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.binarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovingVan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.binarySearch.MovingVan" />
       <module name="zerobaseJavaBasics" />
       <extension name="coverage">
         <pattern>
@@ -187,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BloodFill1 (2)" />
+        <item itemvalue="Application.BloodFill1 (1)" />
+        <item itemvalue="Application.BloodFill1" />
         <item itemvalue="Application.CutLine" />
         <item itemvalue="Application.Orangecnt" />
-        <item itemvalue="Application.MovingVan" />
-        <item itemvalue="Application.LegCnt" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +225,8 @@
       <workItem from="1717550954264" duration="5619000" />
       <workItem from="1717585800028" duration="4541000" />
       <workItem from="1717829320961" duration="7376000" />
+      <workItem from="1718116263675" duration="12000" />
+      <workItem from="1718608596048" duration="3411000" />
     </task>
     <task id="LOCAL-00001" summary="zero base java basic on String method">
       <option name="closed" value="true" />
@@ -352,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717329796578</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="binary search practice">
+      <option name="closed" value="true" />
+      <created>1718116271819</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718116271819</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
